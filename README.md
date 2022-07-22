@@ -1,5 +1,7 @@
 # [Netlify Link](https://salper4.netlify.app/)
 
+Netlify üzerinden bazı functionlarda hatalar oluşabilir hata ile karşılaşırsanız klonlayabilirsiniz.
+
 -------
 # Getting Started with Create React App
 
