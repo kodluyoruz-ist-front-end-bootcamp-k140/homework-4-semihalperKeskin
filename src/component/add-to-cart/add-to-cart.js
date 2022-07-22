@@ -14,7 +14,7 @@ export function AddToCart({ item }) {
       </div>
     )
   }
-
+  
   return (
     <button
       className="btn btn-info"
@@ -23,4 +23,4 @@ export function AddToCart({ item }) {
         showToast({ title: item.name, description: "Ürün ekleme işlemi başarıyla gerçekleşti."})
       }}>Sepete Ekle</button>
   )
-}
+} 

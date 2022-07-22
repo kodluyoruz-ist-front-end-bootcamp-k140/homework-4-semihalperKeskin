@@ -150,13 +150,5 @@
     "name": "Damla Sakızlı Kahve",
     "price": 13.59,
     "image_url": "http://localhost:4000/images/turk-kahvesi.jpeg"
-  },
-  {
-    "category_id": 20,
-    "category": "Kahveler",
-    "id": 24,
-    "name": "logo",
-    "price": 110,
-    "image_url": "http://localhost:4000/images/download.png"
   }
 ]

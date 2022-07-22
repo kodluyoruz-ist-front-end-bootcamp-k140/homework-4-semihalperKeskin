@@ -1,8 +1,7 @@
 import { useActions, useAppState } from "../hooks"
 import { AddToCart } from "../component/add-to-cart"
-import "./index.css"
 
-export default function Sepetim() {
+export function Sepetim() {
   const state = useAppState()
   const { getCartCount, getTotalPrice, removeItemFromCart } = useActions()
 

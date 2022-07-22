@@ -1,5 +1,5 @@
 import React, { createContext, useEffect, useState } from 'react'
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { AddToCart } from '../component/add-to-cart/index';
 import Footer from "../component/footer/Footer"
 import CategoryPage from './CategoryPage';
@@ -31,7 +31,7 @@ export default function ProductsList() {
           </button>
           <ul className="dropdown-menu">
             {items.map((category, i) => (
-              <li key={i} ><Link to={`product/${category.name}`}>{category.name}</Link>
+              <li key={i} ><NavLink className="link-nav" to={`product/${category.name}`}>{category.name}</NavLink>
                 <hr />
               </li>
             ))}
@@ -47,7 +47,7 @@ export default function ProductsList() {
             {category.products.map((item, i) => (
               <div className="col-sm-3" key={i}>
                 <div
-                onClick={<DetailPage category={category} product={item} />}
+                
                   className="card"
                   style={{
                     width: "18rem",

@@ -4,7 +4,7 @@ import Contact from "./pages/Contact"
 import NoPage from './pages/NoPage';
 import DetailPage from './pages/DetailPage';
 import ProductsList from './pages/ProductsList';
-import Sepetim from './pages/Sepetim';
+import {Sepetim} from './pages/Sepetim';
 import { useActions } from "./hooks"
 
 import './App.css';
