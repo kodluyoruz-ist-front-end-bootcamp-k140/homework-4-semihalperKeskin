@@ -40,8 +40,10 @@ export default function ProductsList() {
         </div>
 
         {items.map((category, i) => (
-          <div className="row" key={i}>
+          <div className="row category-name" key={i}>
+            <a href={`product/${category.name}`} >
             <h2 className='categoryTittle'>{category.name}</h2>
+            </a>
             {category.products.map((item, i) => (
               <div className="col-sm-3" key={i}>
                 <div

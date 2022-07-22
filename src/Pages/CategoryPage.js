@@ -16,7 +16,7 @@ export default function CategoryPage() {
   return (
     <>
     <div className="container">
-        <h2>Seçilen ürün : {`${categoryName}`}</h2>
+        <h2>Seçilen kategori : {`${categoryName}`}</h2>
     {items.map((category, i)=>(
         <div className="row" key={i}>
         <h2 className='categoryTittle'>{category.name}</h2>
