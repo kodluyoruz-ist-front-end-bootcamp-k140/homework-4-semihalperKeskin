@@ -1,0 +1,12 @@
+.footer{
+    background-color: #7D9D9C;
+    height: 53px;
+    margin: 0 auto;
+    width: 100%;
+}
+.footer-text {
+    text-align: center;
+    padding-top: 15px;
+    font-size: large;
+    font-family: 'Source Code Pro', monospace;
+}
